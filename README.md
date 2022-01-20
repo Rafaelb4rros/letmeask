@@ -75,6 +75,6 @@ yarn start
 # :closed_book: License
 
 Released in 2022
-This project is under the [MIT license](https://github.com/Rafaelb4rros/letmeask/master/LICENSE).
+This project is under the [MIT license](https://github.com/Rafaelb4rros/letmeask/main/LICENSE).
 
 Made with 💜 by [Rafael Barros](https://github.com/Rafaelb4rros) 🚀
