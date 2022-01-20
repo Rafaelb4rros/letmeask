@@ -1,0 +1,23 @@
+.noQuestionsSection {
+  max-width: 800px;
+  margin: 64px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .noQuestionsImg {
+    max-height: 150px;
+  }
+
+  h2 {
+    font-weight: 600;
+    color: var(--color);
+    margin: 15px 0 10px;
+  }
+  > span {
+    text-align: center;
+    line-height: 25px;
+    color: #737380;
+  }
+}

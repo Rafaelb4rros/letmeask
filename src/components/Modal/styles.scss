@@ -1,0 +1,83 @@
+.ConfirmationModal {
+  width: 590px;
+  height: 362px;
+  border-radius: 8px;
+  background: #f8f8f8;
+
+  .modalContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+
+    .modalText {
+      svg {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        path {
+          stroke: #e73f5d;
+        }
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        color: #29292e;
+        font-family: Poppins, sans-serif;
+        text-align: center;
+        margin-bottom: 12px;
+      }
+      span {
+        color: #737380;
+        font-size: 16px;
+      }
+    }
+
+    .controlsContainer {
+      margin-top: 40px;
+      display: flex;
+      gap: 8px;
+      button {
+        border: 0;
+        padding: 14px 32px 15px;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: filter 0.2s;
+        cursor: pointer;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+      .confirmBtn {
+        background: #e73f5d;
+
+        color: #fefefe;
+      }
+      .cancelBtn {
+        background: #dbdcdd;
+        color: #737380;
+      }
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.8);
+}

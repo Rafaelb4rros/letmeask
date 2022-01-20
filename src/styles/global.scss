@@ -1,0 +1,25 @@
+$light-text: #29292e;
+$light-background: #f8f8f8;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $light-background;
+  color: $light-text;
+}
+
+:disabled {
+  cursor: not-allowed;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}

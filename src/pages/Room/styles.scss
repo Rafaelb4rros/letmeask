@@ -1,0 +1,31 @@
+#page-room {
+  .page-header {
+    padding: 24px;
+    border-bottom: 1px solid #e2e2e2;
+
+    .content {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .btn_container {
+        display: flex;
+        gap: 1rem;
+      }
+
+      > img {
+        max-height: 45px;
+      }
+    }
+  }
+
+  .page-footer {
+    max-width: 800px;
+    margin: 64px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
