@@ -5,9 +5,9 @@
 <br />
 
 <p align="center">
-   <img src=".github/docs/images/home.png" width="500"/>
-   <img src=".github/docs/images/admin-vision.gif" width="500"/>
-   <img src=".github/docs/images/user-vision.gif" width="500"/>
+   <img src=".github/docs/images/home.png" width="600"/>
+   <img src=".github/docs/images/admin-vision.gif" width="600"/>
+   <img src=".github/docs/images/user-vision.gif" width="600"/>
 </p>
 
 ---
